@@ -18,6 +18,15 @@ Window {
         border.width: 20
         border.color: "skyBlue"
 
+        RotationAnimator {
+            target: udaRect
+            from: 0;
+            to: 360;
+            duration: 500
+            running: true
+            loops: Animation.Infinite
+        }
+
         Image {
             id: udaImage
             anchors.centerIn: parent
