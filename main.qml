@@ -22,7 +22,7 @@ Window {
             target: udaRect
             from: 0;
             to: 360;
-            duration: 500
+            duration: 1000
             running: true
             loops: Animation.Infinite
         }
